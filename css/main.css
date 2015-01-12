@@ -1,0 +1,262 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700,400);
+html,body,h1,h2,h3,h4,h5,h6,a,ul,li,img,p{
+	margin: 0;
+	padding: 0;
+	font-family: Lato, Sans;
+	color: #7e8287;
+	
+}
+
+
+h1,h2,h3,h4,h5,h6
+{
+	color: #158cba;
+	font-weight: 100;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+body{
+	background-color: #ebeff2;
+	letter-spacing: 0.2;
+	font-size: 15px;
+}
+.container{
+	max-width: 90%;
+	margin: 0 auto;
+}
+/* header */
+header{
+	background: url('../images/header.jpg');
+	background-size: 1400px 800px;
+	
+
+
+	
+
+}
+/* navigation */
+nav{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 40px;
+	padding-top: 20px;
+	background-color: #fff;
+	border-bottom: 2px solid #dadada;
+}
+.logo
+{
+	color: #158cba;
+	font-size: 24px;
+	font-weight: 100;
+	float: left;
+
+}
+.menu-right
+{
+	list-style: none;
+	float: right;
+}
+.menu-right li
+{
+	float: left;
+	margin-left: 40px;
+	color: #827d72;
+	font-weight:bold;
+	font-size: 12px;
+	text-transform: uppercase;
+
+}
+.menu-right li:hover
+{
+color: #158cba;
+}
+.slogon
+{	margin-top: 40px;
+	padding: 20px;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 2px;
+
+}
+.slogon h4 , .slogon h1 , .slogon h5
+{
+margin-bottom: 20px;
+color: #fff;
+
+}
+.slogon h4 , .slogon h5{
+font-weight: normal;
+}
+.slogon h1
+{
+	font-size: 70px;
+	letter-spacing: 20px;
+	color:#699b56;
+}
+.logo2
+{
+	color: #158cba;
+
+}
+button
+{
+	
+	height: 50px;
+	border:none;
+	color: #fff;
+	 background-color: #158cba;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	cursor: pointer;
+	font-weight: thin;
+}
+button:hover
+{
+	background-color: #1699cc;
+}
+button:focus
+{
+	outline: none;
+}
+.search
+{
+	text-align: left;
+	margin-bottom: 40px; 
+	line-height: 40px;
+	background-color: #fff;
+	padding: 20px;
+}
+.search h1
+{
+	text-align: center;
+}
+.search form input[type="text"]{
+	height: 40px; 
+	display: inline-block;
+	width: 400px;
+	border: 1px solid #158cba;
+
+}
+.search form input[type="text"]:focus{
+outline:none;
+border: 1px solid #1699cc;
+
+}
+.search form select{
+height: 40px; 
+width: 200px;
+color: #158cba;
+border-color: #158cba;
+}
+.search-btn
+ {
+ 	
+height: 41px;
+	border:none;
+	color: #fff;
+	 background-color: #158cba;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	cursor: pointer;
+	font-weight: thin;
+
+ }
+
+.list-cours 
+{
+	text-align: center;
+	margin-bottom: 40px; 
+	margin-top: 40px;
+	line-height: 40px;
+	background-color: #fff;
+	padding: 20px;
+
+}
+ 
+.col-1-4
+{
+	width: 20%;
+	float: left;
+	margin-right: 5%;
+}
+.list-cours .col-1-4 img
+{
+	width: 100%;
+	 filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .6s ease; 
+}
+
+.list-cours h4 
+{
+	margin-top: 20px;
+	color: #699b56;
+	text-transform:capitalize;
+	font-weight: bolder;
+}
+.list-cours p 
+{	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.list-cours .col-1-4
+{
+background-color: #f5f5f5;
+
+}
+.list-cours .col-1-4:hover
+{
+cursor: pointer;	
+}
+.list-cours .col-1-4:hover  img
+{
+	
+	  filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+}
+.link
+{
+	color: #158cba;
+	text-decoration: none;
+	
+}
+.link:hover
+{
+	color: #1699cc;
+}
+/* footer */
+
+footer
+{
+	background-color: #3c474d;
+	margin: 0;
+	padding-top: 40px;
+	
+}
+
+
+footer .copyright
+{
+	background-color: #282f33;
+
+}
+footer .copyright p
+{
+	padding-top: 20px;
+	font-size: 12px;
+
+}
