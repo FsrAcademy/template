@@ -171,7 +171,7 @@ height: 41px;
 
  }
 
-.list-cours 
+.list-cours ,.block
 {
 	text-align: center;
 	margin-bottom: 40px; 
@@ -259,4 +259,23 @@ footer .copyright p
 	padding-top: 20px;
 	font-size: 12px;
 
+}
+.partner-thumb
+{
+	width: 150px;
+	height: 150px;
+	margin: 0;
+	float: left;
+	 filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+}
+.partner-thumb:hover{ 
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+}
+.partner{
+	margin-bottom: 100px;
 }
