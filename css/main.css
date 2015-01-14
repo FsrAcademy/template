@@ -123,7 +123,7 @@ button:focus
 {
 	outline: none;
 }
-.search
+section.search
 {
 	text-align: left;
 	margin-bottom: 40px; 
@@ -131,23 +131,23 @@ button:focus
 	background-color: #fff;
 	padding: 20px;
 }
-.search h1
+section.search h1
 {
 	text-align: center;
 }
-.search form input[type="text"]{
+section.search form input[type="text"]{
 	height: 40px; 
 	display: inline-block;
 	width: 400px;
-	border: 1px solid #158cba;
+	border: 1px solid rgba(39, 41, 43, 0.15);
 
 }
-.search form input[type="text"]:focus{
+section.search form input[type="text"]:focus{
 outline:none;
-border: 1px solid #1699cc;
+border: 1px solid rgba(39, 41, 43, 0.30);
 
 }
-.search form select{
+section.search form select{
 height: 40px; 
 width: 200px;
 color: #158cba;
@@ -278,4 +278,12 @@ footer .copyright p
 }
 .partner{
 	margin-bottom: 100px;
+}
+.right-h
+{
+	float: right;
+}
+.left-h
+{
+	float: left;
 }

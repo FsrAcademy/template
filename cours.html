@@ -3,10 +3,13 @@
 	<title>FsrAcademy </title>
 	<meta name="viewport" content="width=device-width,initial-scal=0.1">
 	<link rel="stylesheet" type="text/css" href="css/semantic.css">
+  
+
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+
   <!-- Used with Tab History !-->
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-  <script src="dist/semantic.js"></script>
+  <script src="js/semantic.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -25,33 +28,68 @@
 </div>
 </nav>
 <!-- end nav -->
-<div class=" slogon">
-<h4>Bienvenue sur </h4>
-<h1>Fsr <div class="logo2">Academy</div></h1>
-<h5>Suivez les meilleures cours de FSR, en ligne, gratuitement. </h5>
-<button>Voir Nos Cours</button>
-</div>
-<!-- end container slogon -->
 </header>
 <!-- end header -->
-<section class="search">
+<br>
+<section class="search container">
 
-<center>
+
 <form>
-
-<div class="ui action left icon input">
+<div class="ui action left icon input left-h">
   <i class="search icon"></i>
   <input type="text" placeholder="Recherche...">
-  <div class="ui teal primary button">rechercher</div>
+  <div class="ui teal button">Rechercher</div>
 </div>
+<div class="right-h">
+  
+  <div class="ui search selection dropdown">
+  <input type="hidden" name="country">
+  <i class="dropdown icon"></i>
+  <input class="search" tabindex="0"><div class="default text">Catégorie...</div>
+  <div class="menu transition hidden" tabindex="-1">
+    <div class="item">Algorithme</div>
+    <div class="item" >Design Patterns</div>
+    <div class="item" ><i class=""></i>POO</div>
+
+</div>
+</div>
+
+<script type="text/javascript">
+$(document)
+  .ready(function(){
+    $('.ui.dropdown')
+      .dropdown()
+    ;
+    $('.ui.menu .dropdown')
+      .dropdown({
+        on: 'hover'
+      })
+    ;
+  })
+;
+</script>
+<div class="ui icon primary buttons">
+  <div class="ui top left pointing  button active " >
+    <i class="grid layout icon"></i>
+    
+  </div>
+  <div class="ui top left pointing button  ">
+    <i class="list icon"></i>
+    
+  </div>
+  
+</div>
+</div>
+<div style="clear:both;"></div>
 </form>
-</center>
+
 </section>
 
 <div style="clear:both;"></div>
 <!-- end setion -->
+<!-- <section class="block container">filter</section> -->
 <section class="container list-cours">
-	<h1>Les cours Les Plus Fréquentés:</h1>
+	<h1>liste des cours :</h1>
 <a href="#"><div class="col-1-4">
 	<img src="images/1.png">
 <h4>Title goes here</h4>
@@ -74,20 +112,8 @@
 </div></a>
 <div style="clear:both;"></div>
 <br>
-<a href="#" class="link">Voir tout les cours </a>
-</section>
-
-<!-- end section -->
-
-<section class="container list-cours">
-  <h1>liste des dernier cours Ajoutés:</h1>
 <a href="#"><div class="col-1-4">
   <img src="images/1.png">
-<h4>Title goes here</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit  amet, consectetur</p>
-</div></a>
-<a href="#"><div class="col-1-4">
-  <img src="images/2.png">
 <h4>Title goes here</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit  amet, consectetur</p>
 </div></a>
@@ -101,29 +127,19 @@
 <h4>Title goes here</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit  amet, consectetur</p>
 </div></a>
+<a href="#"><div class="col-1-4">
+  <img src="images/2.png">
+<h4>Title goes here</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit  amet, consectetur</p>
+</div></a>
 <div style="clear:both;"></div>
-<br>
-<a href="#" class="link">Voir tout les cours </a>
 </section>
+
 <!-- end section -->
 
-<section class="container block ">
-  <h1>Nos Partenaires :</h1>
-<div class="partners">
-<a href="#"><img src="images/1.png" class="partner-thumb"></a>
-<a href="#"><img src="images/2.png" class="partner-thumb"></a>
-<a href="#"><img src="images/1.png" class="partner-thumb"></a>
-<a href="#"><img src="images/2.png" class="partner-thumb"></a>
-<a href="#"><img src="images/1.png" class="partner-thumb"></a>
-<a href="#"><img src="images/2.png" class="partner-thumb"></a>
-<a href="#"><img src="images/1.png" class="partner-thumb"></a>
-<a href="#"><img src="images/2.png" class="partner-thumb"></a>
-</div>
-<div style="clear:both"></div>
 
-</section>
-<!-- end section -->
 <div style="clear:both;"></div>
+
 
 <footer>
 	
