@@ -323,7 +323,7 @@ footer .copyright p
 	width: 50%;
 	float: left;
 }
-.content
+.contenue
 {
 	width: 57%;
 	float:left;
@@ -347,4 +347,8 @@ footer .copyright p
 {
 	content: 'Ou' !important;
 
+}
+.content 
+{
+	line-height: 35px !important;
 }
