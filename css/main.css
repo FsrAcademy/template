@@ -24,6 +24,7 @@ body{
 .container{
 	max-width: 90%;
 	margin: 0 auto;
+	width: 1200px;
 }
 /* header */
 header{
@@ -285,14 +286,15 @@ footer .copyright p
     -webkit-filter: grayscale(0%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
     -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+    box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.10), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);	
 }
 .partner-thumb:hover{ 
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     filter: gray;
 }
-.partner{
-	margin-bottom: 100px;
+.partners{
+	width: 600px;
 }
 .right-h
 {
