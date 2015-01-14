@@ -20,6 +20,9 @@ body{
 	background-color: #ebeff2;
 	letter-spacing: 0.2;
 	font-size: 15px;
+	height: 100%;
+	display: block;
+	position: relative;
 }
 .container{
 	max-width: 90%;
@@ -174,12 +177,21 @@ height: 41px;
 
 .list-cours ,.block
 {
-	text-align: center;
-	margin-bottom: 40px; 
-	margin-top: 40px;
+	display: block;
+	
+	margin-bottom: 20px; 
+	margin-top: 20px;
 	line-height: 40px;
 	background-color: #fff;
 	padding: 20px;
+	box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.10), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);	
+
+}
+ 
+ .box
+{
+	display: block;
+
 	box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.10), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);	
 
 }
@@ -190,6 +202,7 @@ height: 41px;
 	float: left;
 	margin-right: 5%;
 }
+
 
 .list-cours .col-1-4 img
 {
@@ -259,8 +272,9 @@ cursor: pointer;
 footer
 {
 	background-color: #3c474d;
-	margin: 0;
 	padding-top: 40px;
+	display: block;
+	
 	
 }
 
@@ -303,4 +317,34 @@ footer .copyright p
 .left-h
 {
 	float: left;
+}
+.col-1-2
+{
+	width: 50%;
+	float: left;
+}
+.content
+{
+	width: 57%;
+	float:left;
+}
+.side
+{
+	width:40%;
+	float: right;
+}
+.side video
+{
+	width: 100%;
+	height: 300px;
+
+}
+.ui.top.attached.label:first-child + :not(.attached)
+{
+		margin-top:0 !important;
+}
+.or:before
+{
+	content: 'Ou' !important;
+
 }
