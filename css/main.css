@@ -179,6 +179,7 @@ height: 41px;
 	line-height: 40px;
 	background-color: #fff;
 	padding: 20px;
+	box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.10), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);	
 
 }
  
@@ -188,6 +189,7 @@ height: 41px;
 	float: left;
 	margin-right: 5%;
 }
+
 .list-cours .col-1-4 img
 {
 	width: 100%;
@@ -215,8 +217,21 @@ height: 41px;
 .list-cours .col-1-4
 {
 background-color: #f5f5f5;
-
+position: relative;
+box-sizing:border-box;
+box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.10), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);	
 }
+.list-cours .col-1-4 .options
+{
+	position: static;
+	box-shadow: 0px 0px 0px 1px rgba(39, 41, 43, 0.10), 0px 1px 4px 0px rgba(0, 0, 0, 0.15);	
+	width: 90%;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0 auto;	
+	background-color: #fff;
+	
+	}
 .list-cours .col-1-4:hover
 {
 cursor: pointer;	

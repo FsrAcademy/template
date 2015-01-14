@@ -19548,7 +19548,7 @@ ol.ui.horizontal.list li:before,
   max-width: 100%;
   position: relative;
   display: block;
-  width: 290px;
+  width: 100%;
   min-height: 0px;
   background: #ffffff;
   padding: 0em;
